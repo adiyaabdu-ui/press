@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5ef">
+  <meta name="description" content="Аренда туристического снаряжения в Алматы: палатки, спальники и рюкзаки для вашего маршрута.">
+  <title>Тропа — аренда туристического снаряжения</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input class="theme-toggle__input" type="checkbox" id="theme-toggle" aria-label="Включить лесную тему">
+  <div class="site-shell">
+    <header class="site-header">
+      <input class="menu-toggle__input" type="checkbox" id="menu-toggle" aria-label="Открыть меню">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Тропа — на главную">
+          <span class="brand-mark" aria-hidden="true">↟</span>
+          <span class="brand-name">тропа<span class="brand-dot">.</span><small>снаряжение в аренду</small></span>
+        </a>
+
+        <nav class="main-nav" id="main-navigation" aria-label="Основная навигация">
+          <a href="#catalog">Снаряжение</a>
+          <a href="#how-it-works">Как это работает</a>
+          <a href="#routes">Маршруты</a>
+          <a href="#safety">Безопасность</a>
+          <a class="mobile-nav-cta" href="#rental">Рассчитать аренду <span aria-hidden="true">↗</span></a>
+        </nav>
+
+        <div class="header-actions">
+          <label class="theme-switch" for="theme-toggle" title="Переключить тему">
+            <span class="theme-switch__icon theme-switch__sun" aria-hidden="true">☼</span>
+            <span class="theme-switch__track"><span></span></span>
+            <span class="theme-switch__icon theme-switch__moon" aria-hidden="true">☾</span>
+            <span class="sr-only">Переключить светлую и лесную тему</span>
+          </label>
+          <a class="header-phone" href="tel:+77001234567">+7 700 123 45 67</a>
+          <a class="button button--small header-cta" href="#rental">Арендовать <span aria-hidden="true">↗</span></a>
+        </div>
+        <label class="menu-toggle" for="menu-toggle" aria-label="Показать навигацию">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Алматы · Казахстан</p>
+          <h1 id="hero-title">Ближе к природе.<br><em>Легче на подъём.</em></h1>
+          <p class="hero-lead">Всё для хорошего похода — без лишних покупок. Возьмите проверенное снаряжение на выходные или в большое путешествие.</p>
+          <div class="hero-actions">
+            <a class="button" href="#catalog">Выбрать снаряжение <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#how-it-works">Как работает аренда <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="avatar-stack" aria-hidden="true"><i>А</i><i>М</i><i>К</i></span>
+            <span><strong>1 200+ путешественников</strong><small>уже отправились с нами</small></span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-image-frame">
+            <img src="images/img/Group%201.svg" alt="Подборка туристического снаряжения на фоне природы" width="931" height="1001">
+          </div>
+          <div class="hero-stamp" aria-label="Проверяем каждую вещь">
+            <span class="stamp-spark" aria-hidden="true">✳</span>
+            <span>Проверено<br>перед каждым<br>походом</span>
+          </div>
+          <p class="hero-image-caption"><span>01 / 04</span> Выходные, которые запомнятся</p>
+        </div>
+        <a class="scroll-cue" href="#catalog"><span></span> Листайте вниз</a>
+      </section>
+
+      <section class="trust-strip" aria-label="Наши преимущества">
+        <div class="trust-inner">
+          <p><span class="trust-icon" aria-hidden="true">✳</span> Чистое и проверенное снаряжение</p>
+          <p><span class="trust-icon" aria-hidden="true">↗</span> Забрать можно в Алматы</p>
+          <p><span class="trust-icon" aria-hidden="true">♡</span> Поможем собрать комплект</p>
+          <p><span class="trust-icon" aria-hidden="true">₸</span> Честная цена за день</p>
+        </div>
+      </section>
+
+      <section class="catalog section-wrap" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Соберите свой комплект</p>
+            <h2 id="catalog-title">Снаряжение для<br><em>больших планов</em></h2>
+          </div>
+          <p class="section-intro">Никаких компромиссов между комфортом и приключением. Каждую вещь мы лично проверяем после возврата.</p>
+        </div>
+        <div class="category-tabs" role="group" aria-label="Категории снаряжения">
+          <a class="category-tab category-tab--active" href="#catalog">Всё снаряжение <span>04</span></a>
+          <a class="category-tab" href="#tent">Палатки</a>
+          <a class="category-tab" href="#sleeping-bag">Спальники</a>
+          <a class="category-tab" href="#backpack">Рюкзаки</a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" id="tent">
+            <div class="product-visual product-visual--tent">
+              <span class="product-tag">Хит сезона</span>
+              <span class="product-art" aria-hidden="true">⛺</span>
+              <span class="visual-caption">на двоих · 3 сезона</span>
+            </div>
+            <div class="product-info">
+              <div class="product-heading"><h3>Палатка Trek 2</h3><span class="rating">★ 4.9</span></div>
+              <p class="product-description">Лёгкая, устойчивая к ветру, с тамбуром для рюкзаков.</p>
+              <div class="product-specs"><span>⌁ 2.8 кг</span><span>↔ 210 × 160 см</span></div>
+              <div class="product-bottom"><p><strong>4 500 ₸</strong><span> / сутки</span></p><button class="icon-button add-product" type="button" data-product="tent" aria-label="Добавить палатку Trek 2 в расчёт">+</button></div>
+            </div>
+          </article>
+          <article class="product-card" id="sleeping-bag">
+            <div class="product-visual product-visual--sleeping">
+              <span class="product-tag product-tag--light">Комфорт −5 °C</span>
+              <span class="product-art" aria-hidden="true">❋</span>
+              <span class="visual-caption">тёплый сон в горах</span>
+            </div>
+            <div class="product-info">
+              <div class="product-heading"><h3>Спальник Nord</h3><span class="rating">★ 4.8</span></div>
+              <p class="product-description">Мягкий кокон для прохладных ночей и ранних подъёмов.</p>
+              <div class="product-specs"><span>⌁ 1.4 кг</span><span>↔ до 190 см</span></div>
+              <div class="product-bottom"><p><strong>3 500 ₸</strong><span> / сутки</span></p><button class="icon-button add-product" type="button" data-product="sleeping" aria-label="Добавить спальник Nord в расчёт">+</button></div>
+            </div>
+          </article>
+          <article class="product-card" id="backpack">
+            <div class="product-visual product-visual--backpack">
+              <span class="product-tag product-tag--light">Лёгкий маршрут</span>
+              <span class="product-art" aria-hidden="true">♧</span>
+              <span class="visual-caption">ничего лишнего</span>
+            </div>
+            <div class="product-info">
+              <div class="product-heading"><h3>Рюкзак Altai 55</h3><span class="rating">★ 5.0</span></div>
+              <p class="product-description">Удобная посадка и продуманные карманы для долгого пути.</p>
+              <div class="product-specs"><span>⌁ 1.7 кг</span><span>↗ 55 литров</span></div>
+              <div class="product-bottom"><p><strong>2 500 ₸</strong><span> / сутки</span></p><button class="icon-button add-product" type="button" data-product="backpack" aria-label="Добавить рюкзак Altai 55 в расчёт">+</button></div>
+            </div>
+          </article>
+          <article class="product-card" id="mat">
+            <div class="product-visual product-visual--mat">
+              <span class="product-tag">Комфорт в комплекте</span>
+              <span class="product-art" aria-hidden="true">▤</span>
+              <span class="visual-caption">спите крепко</span>
+            </div>
+            <div class="product-info">
+              <div class="product-heading"><h3>Коврик Forest</h3><span class="rating">★ 4.7</span></div>
+              <p class="product-description">Самонадувающийся коврик — мягко даже на каменистой земле.</p>
+              <div class="product-specs"><span>⌁ 900 г</span><span>↔ 183 × 51 см</span></div>
+              <div class="product-bottom"><p><strong>1 500 ₸</strong><span> / сутки</span></p><button class="icon-button add-product" type="button" data-product="mat" aria-label="Добавить коврик Forest в расчёт">+</button></div>
+            </div>
+          </article>
+        </div>
+        <p class="catalog-footnote"><span aria-hidden="true">✳</span> Не знаете, что взять? <a href="#rental">Подскажем под ваш маршрут</a></p>
+      </section>
+
+      <section class="how-it-works" id="how-it-works" aria-labelledby="steps-title">
+        <div class="section-wrap how-inner">
+          <div class="how-intro">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Ничего сложного</p>
+            <h2 id="steps-title">От идеи до<br><em>тропы — 3 шага</em></h2>
+            <p>Вы отдыхаете от города, а мы заботимся о том, чтобы всё нужное было под рукой.</p>
+            <a class="text-link" href="#rental">Начать планировать <span aria-hidden="true">↗</span></a>
+          </div>
+          <ol class="steps-list">
+            <li><span class="step-number">01</span><div><h3>Выберите снаряжение</h3><p>Соберите свой набор или расскажите нам о маршруте — поможем с выбором.</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+            <li><span class="step-number">02</span><div><h3>Забронируйте даты</h3><p>Оставьте заявку онлайн. Мы подтвердим наличие и договоримся о встрече.</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+            <li><span class="step-number">03</span><div><h3>Заберите и отправляйтесь</h3><p>Заберите чистое снаряжение в Алматы и отправляйтесь навстречу природе.</p></div><span class="step-arrow" aria-hidden="true">↗</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="rental section-wrap" id="rental" aria-labelledby="rental-title">
+        <div class="rental-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Ваш поход начинается здесь</p>
+          <h2 id="rental-title">Рассчитайте<br><em>своё путешествие</em></h2>
+          <p>Укажите даты и снаряжение — стоимость появится сразу. Ничего не списываем: это только заявка.</p>
+          <div class="rental-assurance"><span aria-hidden="true">↗</span><p><strong>Без предоплаты</strong><br>Сначала подтвердим наличие и ответим на вопросы.</p></div>
+        </div>
+        <form class="rental-form" id="rental-form">
+          <div class="form-heading"><h3>Заявка на аренду</h3><span>01 — 04</span></div>
+          <div class="form-field">
+            <label for="equipment">Что возьмём с собой?</label>
+            <select id="equipment" name="equipment" required>
+              <option value="tent" data-rate="4500">Палатка Trek 2 — 4 500 ₸ / сутки</option>
+              <option value="sleeping" data-rate="3500">Спальник Nord — 3 500 ₸ / сутки</option>
+              <option value="backpack" data-rate="2500">Рюкзак Altai 55 — 2 500 ₸ / сутки</option>
+              <option value="mat" data-rate="1500">Коврик Forest — 1 500 ₸ / сутки</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label for="start-date">Начало аренды</label><input id="start-date" name="start-date" type="date" required></div>
+            <div class="form-field"><label for="end-date">Возврат</label><input id="end-date" name="end-date" type="date" required></div>
+          </div>
+          <div class="form-row form-row--bottom">
+            <div class="form-field"><label for="quantity">Количество</label><div class="quantity-control"><button type="button" class="quantity-button" id="quantity-minus" aria-label="Уменьшить количество">−</button><input id="quantity" name="quantity" type="number" min="1" max="10" value="1" required><button type="button" class="quantity-button" id="quantity-plus" aria-label="Увеличить количество">+</button></div></div>
+            <div class="total-box" aria-live="polite" aria-atomic="true"><span id="duration-label">Выберите даты</span><strong id="total-price">— ₸</strong></div>
+          </div>
+          <p class="date-error" id="date-error" role="alert"></p>
+          <div class="form-field"><label for="phone">Ваш телефон</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" pattern="[+0-9 \x28\x29\x2D]{10,20}" required></div>
+          <button class="button button--submit" type="submit">Оставить заявку <span aria-hidden="true">↗</span></button>
+          <p class="form-privacy">Нажимая кнопку, вы соглашаетесь на связь по указанному номеру.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="route-band" id="routes" aria-labelledby="routes-title">
+        <div class="route-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Вдохновение рядом</p>
+          <h2 id="routes-title">Алматы — это<br><em>начало маршрута</em></h2>
+          <p>Большое Алматинское озеро, ущелья и горные перевалы ждут вас всего в паре часов от города.</p>
+          <a class="button button--light" href="https://visitalmaty.kz/" target="_blank" rel="noopener noreferrer">Идеи для маршрута <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="route-art" aria-hidden="true"><span class="route-sun"></span><span class="mountain mountain--back"></span><span class="mountain mountain--front"></span><span class="route-tent">⌂</span></div>
+        <p class="route-coordinate" aria-hidden="true">43° 13′ 0″ N &nbsp; 76° 51′ 0″ E</p>
+      </section>
+
+      <section class="safety section-wrap" id="safety" aria-labelledby="safety-title">
+        <div class="safety-icon" aria-hidden="true">✳</div>
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> Берегите себя и природу</p><h2 id="safety-title">Хороший маршрут —<br><em>безопасный маршрут</em></h2><p class="safety-copy">Проверьте прогноз, сообщите близким о планах и забирайте с собой всё, что принесли. Горы прекрасны, когда мы относимся к ним с уважением.</p></div>
+        <a class="text-link safety-link" href="https://www.gov.kz/memleket/entities/emer-almaty?lang=ru" target="_blank" rel="noopener noreferrer">Советы по безопасности <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main section-wrap">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="#top"><span class="brand-mark" aria-hidden="true">↟</span><span class="brand-name">тропа<span class="brand-dot">.</span><small>снаряжение в аренду</small></span></a>
+          <p>Меньше вещей.<br>Больше историй.</p>
+          <a class="footer-email" href="mailto:hello@tropa.kz">hello@tropa.kz <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="footer-column"><h3>Снаряжение</h3><a href="#tent">Палатки</a><a href="#sleeping-bag">Спальники</a><a href="#backpack">Рюкзаки</a><a href="#mat">Аксессуары</a></div>
+        <div class="footer-column"><h3>Планируйте</h3><a href="#how-it-works">Как работает аренда</a><a href="#routes">Маршруты рядом</a><a href="#rental">Рассчитать стоимость</a></div>
+        <div class="footer-column"><h3>Важно знать</h3><a href="#safety">Советы по безопасности</a><a href="#safety">Правила возврата</a><a href="https://www.gov.kz/memleket/entities/emer-almaty?lang=ru" target="_blank" rel="noopener noreferrer">Службы спасения ↗</a></div>
+        <div class="footer-contact"><span>Мы на связи</span><a href="tel:+77001234567">+7 700 123 45 67</a><small>Ежедневно, 09:00–20:00</small><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a><a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">tg</a></div></div>
+      </div>
+      <div class="footer-bottom section-wrap"><span>© 2026 Тропа. В путь — налегке.</span><span>Сделано с заботой о природе <b aria-hidden="true">↟</b></span><a href="vscode://file/Users/adiyaad/Desktop/tourist-rental/index.html">Открыть в VS Code ↗</a><a href="#top">Наверх ↑</a></div>
+    </footer>
+  </div>
+  <script>
+    (() => {
+      const form = document.querySelector('#rental-form');
+      const equipment = document.querySelector('#equipment');
+      const startDate = document.querySelector('#start-date');
+      const endDate = document.querySelector('#end-date');
+      const quantity = document.querySelector('#quantity');
+      const durationLabel = document.querySelector('#duration-label');
+      const totalPrice = document.querySelector('#total-price');
+      const dateError = document.querySelector('#date-error');
+      const feedback = document.querySelector('#form-feedback');
+      const menuToggle = document.querySelector('#menu-toggle');
+
+      const today = new Date();
+      today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+      const todayString = today.toISOString().slice(0, 10);
+      startDate.min = todayString;
+      endDate.min = todayString;
+
+      function calculate() {
+        dateError.textContent = '';
+        if (!startDate.value || !endDate.value) {
+          durationLabel.textContent = 'Выберите даты';
+          totalPrice.textContent = '— ₸';
+          return false;
+        }
+        const start = new Date(`${startDate.value}T00:00:00`);
+        const end = new Date(`${endDate.value}T00:00:00`);
+        const days = Math.round((end - start) / 86400000);
+        if (startDate.value < todayString) {
+          dateError.textContent = 'Дата начала не может быть в прошлом.';
+          durationLabel.textContent = 'Проверьте даты';
+          totalPrice.textContent = '— ₸';
+          return false;
+        }
+        if (days < 1) {
+          dateError.textContent = 'Дата возврата должна быть позже даты начала.';
+          durationLabel.textContent = 'Проверьте даты';
+          totalPrice.textContent = '— ₸';
+          return false;
+        }
+        const safeQuantity = Math.min(10, Math.max(1, Number(quantity.value) || 1));
+        quantity.value = safeQuantity;
+        const rate = Number(equipment.selectedOptions[0].dataset.rate);
+        durationLabel.textContent = `${days} ${days === 1 ? 'сутки' : days < 5 ? 'суток' : 'суток'} · ${safeQuantity} шт.`;
+        totalPrice.textContent = new Intl.NumberFormat('ru-RU').format(days * rate * safeQuantity) + ' ₸';
+        endDate.min = startDate.value;
+        return true;
+      }
+
+      [equipment, startDate, endDate, quantity].forEach((field) => {
+        field.addEventListener('input', calculate);
+        field.addEventListener('change', calculate);
+      });
+      document.querySelector('#quantity-minus').addEventListener('click', () => {
+        quantity.value = Math.max(1, (Number(quantity.value) || 1) - 1);
+        calculate();
+      });
+      document.querySelector('#quantity-plus').addEventListener('click', () => {
+        quantity.value = Math.min(10, (Number(quantity.value) || 1) + 1);
+        calculate();
+      });
+      document.querySelectorAll('.add-product').forEach((button) => {
+        button.addEventListener('click', () => {
+          equipment.value = button.dataset.product;
+          calculate();
+          document.querySelector('#rental').scrollIntoView({ behavior: 'smooth' });
+          equipment.focus({ preventScroll: true });
+        });
+      });
+      startDate.addEventListener('change', () => {
+        if (endDate.value && endDate.value < startDate.value) endDate.value = '';
+        endDate.min = startDate.value || todayString;
+        calculate();
+      });
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        feedback.textContent = '';
+        if (!form.reportValidity() || !calculate()) return;
+        const item = equipment.selectedOptions[0].textContent.split(' — ')[0];
+        feedback.textContent = `Спасибо! Заявка на «${item}» отправлена. Мы скоро свяжемся с вами для подтверждения.`;
+        form.reset();
+        quantity.value = '1';
+        endDate.min = todayString;
+        durationLabel.textContent = 'Выберите даты';
+        totalPrice.textContent = '— ₸';
+      });
+      document.querySelectorAll('.main-nav a').forEach((link) => {
+        link.addEventListener('click', () => { menuToggle.checked = false; });
+      });
+    })();
+  </script>
+</body>
+</html>
